@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cluster
+  description: My cluster service
+  annotations:
+    github.com/project-slug: dharani-1898/cluster
+  # name: backstage
+  # description: An example of a Backstage application.
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:guest
+  # type: website
+  # owner: john@example.com
+  lifecycle: experimental
